@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Yarn Cafe-Workshop</title>
+    <meta
+      name="description"
+      content="猫×編み物×タフティングを楽しめる猫カフェ"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ファビコン -->
+    <link rel="icon" type="image/png" href="hp/fabi36.png" />
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Hachi+Maru+Pop&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+New&family=Zen+Kurenaido&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- オリジナルCSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Luminous Lightbox CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="sub-cover cover-menu">
+      <header class="page-header wrapper">
+        <h1 class="align-center">
+          <a href="index.html"
+            ><img class="logo" src="hp/caferogooooo.png" alt="Yarn Cafe ホーム"
+          /></a>
+        </h1>
+        <nav>
+          <ul class="main-nav font-english">
+            <li><a href="news.html">News</a></li>
+            <li><a href="menu.html">Workshop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h2 class="page-title font-english">Workshop</h2>
+    </div>
+    <div class="toptext">
+      <p>
+        当店では、初心者からでも気軽に楽しめるワークショップを開催しております。
+      </p>
+    </div>
+
+    <main class="wrapper grid">
+      <div class="item">
+        <a class="grid-gallery" href="hp/noanezumi.jpg">
+          <img src="hp/noanezumi.jpg" alt="" />
+        </a>
+        <p>猫のおもちゃ作り～ネズミ～</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="hp/tahutexingu.jpg">
+          <img src="hp/tahutexingu.jpg" alt="" />
+        </a>
+        <p>タフティング体験教室</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="hp/ko-sutaaaaa.png">
+          <img src="hp/ko-sutaaaaa.png" alt="" />
+        </a>
+        <p>肉球コースターを作ろう</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="hp/ko-hi----------.webp">
+          <img src="hp/ko-hi----------.webp" alt="" />
+        </a>
+        <p>コーヒー試飲会</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="hp/oyatu4.jpg">
+          <img src="hp/oyatu4.jpg" alt="" />
+        </a>
+        <p>猫ちゃんのおやつ作り</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="hp/riku.jpg">
+          <img src="hp/riku.jpg" alt="" />
+        </a>
+        <p>猫にやさしい首輪を編もう</p>
+      </div>
+    </main>
+    <div class="sonota">
+      <p>
+        事前予約が必要なワークショップもございます。開催日程など、詳しくは店舗スタッフまでお問い合わせください。
+      </p>
+    </div>
+    <footer class="page-footer">
+      <h3 class="heading-large font-english">Information</h3>
+      <table class="info">
+        <tr>
+          <th>住所</th>
+          <td>東京都中野区中央○○</td>
+        </tr>
+        <tr>
+          <th>電話</th>
+          <td>123-4567-8900</td>
+        </tr>
+        <tr>
+          <th>営業時間</th>
+          <td>10:00〜18:00</td>
+        </tr>
+        <tr>
+          <th>店休日</th>
+          <td>水曜</td>
+        </tr>
+      </table>
+      <div class="copyright">
+        <small>&copy; 2026 Yarn Cafe</small>
+      </div>
+    </footer>
+    <!-- Luminous Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+    <script>
+      new LuminousGallery(document.querySelectorAll(".grid-gallery"));
+    </script>
+  </body>
+</html>
